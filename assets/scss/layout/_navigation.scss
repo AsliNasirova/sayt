@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     font-size: 19px;
     width: 100%;
     height: 7%;
@@ -6,29 +6,30 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-.navright{
-    &>ul{
-        display: flex;
-        justify-content: space-between;
-        text-decoration: none;
-        flex-direction: row;
-        width: 100%;
-        height: 100%;
-        gap: 20px;
+
+    .navright {
+        &>ul {
+            display: flex;
+            justify-content: space-between;
+            text-decoration: none;
+            flex-direction: row;
+            width: 100%;
+            height: 100%;
+            gap: 20px;
+        }
     }
-}
-    li{
+
+    li {
         a:hover {
             background-color: rgb(116, 51, 110);
-          }
+        }
     }
-    .blog_in{
+
+    .blog_in {
         display: none;
     }
 
-    
 }
 
-@media screen and (max-width:992px){
-    
-}
+
+@media screen and (max-width:992px) {}

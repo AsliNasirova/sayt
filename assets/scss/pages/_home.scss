@@ -2,9 +2,6 @@
     font-size: 40px;
     margin: 150px;
 }
-.rightpart{
- 
-}
 .button{
     height: 70px;
     width: 200px;
@@ -14,4 +11,18 @@
     font-size: 20px;
     margin-left: 2%;
     margin-top: 6%;
+}
+.container {
+    display: flex;
+
+}
+.title{
+    font-size: 25px;
+    text-align: center;
+}
+.row_feature_inner{
+    font-size: 30px;
+}
+.col-lg-4{
+    text-align: center;
 }
